@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SpringBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <link href="botchat.css" rel="stylesheet" />
+    <link href="botchat-fullwindow.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="BotChatElement"></div>
+    <script src="botchat.js"></script>
+    <script>
+    var model = {
+      "userId": "ETw4mzxPkFz",
+      "userName": "You",
+      "botId": "SAITO",
+      "botIconUrl": "https://docs.botframework.com/static/devportal/client/images/bot-framework-default-2.png",
+      "botName": "SAITO",
+      "secret": "1pgRXjMdO0E.gyqHWQ66EGUK7tlDOCpAnKYFc-_bIdCPEPSeIzBJjhw",
+      "iconUrl": "https://docs.botframework.com/static/devportal/client/images/bot-framework-default-2.png",
+      "directLineUrl": "https://webchat.botframework.com/v3/directline",
+      "webSocketEnabled": "true",
+      "speechTokenEndpoint": "https://api.botframework.com/v3/speechtoken",
+      "speechEnabled": false,
+      "cssUrl": "/css/webchat-stable/botchat.css",
+      "cssFullWindowUrl": "/css/webchat-stable/botchat-fullwindow.css",
+      "botChatJavaScriptUrl": "/scripts/webchat-stable/botchat.js",
+      "cognitiveServicesJavaScriptUrl": "/scripts/webchat-stable/CognitiveServices.js"
+    };
+    </script>
+        <script>
+            var speechOptions;
+        </script>
+
+    <script>
+        BotChat.App({
+            directLine: {
+                secret: model.secret,
+                token: model.token,
+                domain: model.directLineUrl,
+                webSocket: true
+            },
+            user: { id: model.userId, name: model.userName },
+            bot: { id: model.botId, name: model.botName },
+            resize: 'window',
+            speechOptions: speechOptions,
+            locale: 'en'
+        }, document.getElementById('BotChatElement'));
+    </script>
+</body>
+</html>
