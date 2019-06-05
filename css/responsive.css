@@ -1,0 +1,645 @@
+
+
+/* Smarth phones hasta 280 */
+  @media screen and (min-width: 17.5em){
+    .menu_mov{display: block;}
+    #menuprincipal{display: none;}
+    .titulo{font-size: 1.2rem;}
+    /*BOTON CHAT*/
+    #chat-btn{ background-size:80%; width: 150px; height:70px;}
+    #chat-btn span{ top: 28px;font-size: 11px;left: 1.8rem; }
+
+    /*FORMULARIO DEMO*/
+    /*MODAL WINDOW SOLICITAR DEMO*/
+    .overlay {z-index: 10;}
+    .overlay .overlay-background {z-index: 100;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 630px;}
+    .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
+    .overlay .overlay-close:hover {opacity: .9;}
+    .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
+    .overlay .overlay-content .subtitulo {margin-top: 35px;line-height: 100%;font-weight: 400;font-size: 14px;}
+     .overlay .overlay-content {margin:65px auto;}
+    .overlay.open {z-index:1000; }
+    .overlay.short .overlay-content {margin: 30px auto;}
+
+
+    /*INICIO*/
+    .curva li{ width: 100%; height:100vh; position: relative;}
+    .curva li img{ left: 0; top: 1rem; opacity: 0.6; }
+    #txtbienvenida{position: absolute;left: 0; width: 100%!important;}
+
+    .curva h1 {font-size:2.1rem;margin-bottom: 30px;width: 90%;text-align: center;color:black;}
+    .curva h3 {margin-bottom: 30px; font-size: 15px; width: 75%; color: black;}
+    .divisor{ background: #f93448; border-radius: 20px; height: 7px; width: 150px; margin-bottom: 2rem;}
+    .curva .divisor{background:#f93448;}
+
+    /*VENTAJAS*/
+    .doblecolumna{display:flex;flex-direction:column;}
+    #ventajas .doblecolumna li{ width: 90%; height:300px;}
+    .globo_ventaja .txtazul{font-size: 1.2rem; width:80%;padding-bottom:1rem; padding-top:3rem;}
+    .globo_ventaja .txtazulclaro {font-size: 1rem; width: 100%;padding-bottom:1rem;}
+    .redes {width: 100%; height: 50px;}
+    .redes a{margin:0 20px; font-size: 1.8rem;}
+    #WAverificacion img{width: 100%;}
+    #WAverificacion p{width: 55%;padding-top: 2rem;}
+
+    /*VENTAJAS 2*/
+    #ventajas2{height:auto; padding: 2rem 0;}
+    #ventajas2 .titulo{padding-bottom: 2rem;}
+    .cualidades{width:80%;}
+    .cualidades span{ font-size: 6rem; padding-bottom: 30px;}
+    span.icon-integracion_icono { margin-top: 2rem; }
+    .separador{display: none!important;}
+    #interacciones{width: 100%; height: 350px;}
+    #interacciones svg{ width: 45%;}
+    .conexion{width: 5%;}
+    #conector1{left:5rem;}
+    #oraclel{left:0;}
+    #sagel{left: 8rem; top: 5rem;}
+    #conector2{left: 10rem; top: 8rem;}
+
+    #peoplesl{right: 0;}
+    #conector3{right: 5rem;}
+
+    #mdynamicsl{bottom: 5rem;}
+    #conector4{bottom: 7rem;}
+
+    #sapl{right: 5rem; top:4.5rem;}
+    #conector5{right: 8rem; top: 8rem;}
+
+
+
+          /*MACHINE LEARNING Q*/
+          #machinelearning{height:auto;}
+          #machinelearning .doblecolumna li{height: 250px;}
+          .imageslearning #cloud{ width: 100%;}
+          .imageslearning #learninglogo {position: absolute; margin:auto; left: 0; right: 10px; width: 50%; top:5rem;}
+          .degradado{ width:90%; height:auto; margin:0 auto; border-radius:30px;}
+          .txtlearning{font-size: 1.1rem;text-align:center; color:#58807E;}
+          #texturalearning{opacity:0.1;width:auto;height: 100%;}
+
+          /*TABLERO DE CONTROL*/
+          #tablerocontrol{height: auto;padding: 2rem 0;}
+          #tablerocontrol .titulo{padding: 2rem 0; text-align: center; width: 100%;}
+          .tablerolist{width: 80%!important; height: 300px!important; padding-left:0; }
+          .tablerolist button{width: 100%; margin-top: 1rem;}
+          .tablerolist .listado li{ height:50px;}
+          .listado li span{font-size: 1rem;  margin-right:10px; margin-top: 5px; }
+          .imagentablero{height: 350px;margin-top: 2rem; width:100%!important;}
+          #tablero{width: 74%;top:3.4rem; left:2.9rem;}
+          #tablerogif{display: none; z-index: 60;width:74%;position: absolute; top:3.4rem; left:2.7rem; z-index: 30;}
+
+    /*CLIENTES*/
+    #clientes{height: auto; padding: 1rem 0;display: flex; justify-content: center; flex-direction: column; align-items: center; align-content: center;}
+    #clientes .titulo{padding-bottom: 1rem; width: 90%;}
+    .grid-container { position:relative; display: inline-flex;width: 100%; padding:1rem 0; justify-content:center; flex-wrap:wrap; flex-direction: row; align-content: center; align-items: center; }
+    .grid-item {width:150px; height:100px;}
+    .grid-item img{ height:75%;}
+
+    /*CONTACTO*/
+    .enlaces_contacto{ width: 80%; height: 60px; position:relative; top:10px;right:0; margin: 0 auto; background-size: 50%; }
+    #contacto .redes{ height:50px;}
+    .input_wrapper label {width: 55%;text-align: left; padding-left: 10px; padding-top: 5px; border-radius: 20px;}
+    .input_wrapper input[type="text"]:focus + label {left: 45%;}
+    
+    /*UBICACIÓN*/
+    #ubicacion{padding-top: 2rem;}
+    #ubicacion .grid-container{width: 100%;height: auto; padding: 2rem; display: inline-flex; flex-direction: row;}
+    .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .maps{font-size: 5.5rem;}
+    .pais_map:hover .zoom_map span{font-size: 4rem;}
+    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
+    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .info_ub{ display:none; width: 100%;height:auto;}
+    .info_ub .direccion{display:block; width: 100%; text-align: center;}
+    .info_ub a{ margin:0 10px; display:block; width: 100%; text-align: center;}
+    .info_ub span {margin-right:0; display:block; width: 100%; margin-top: 3px; text-align: center;}
+
+
+    /*APARTADO PÁGINA CHATS*/
+    #saitoes p{padding-top: 8rem; font-size: 1.2rem; width: 80%; margin: 0 auto;}
+    #saitoes img{width: 85%; margin: 0 auto; padding-top: 8rem;}
+
+    /*AYUDA SECTION*/
+    #ayuda{padding:1rem 0; height:auto; }
+    #ayuda .titulo{font-size: 1.2rem; padding-bottom: 2rem;}
+    #ayuda .doblecolumna li{ width: 100%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
+    #ayuda .listado li{width: 100%;margin: auto 15px;}
+    #ayuda .doblecolumna img {width: 45%;}
+    #ayuda #demo2{position:relative; left:-11rem; top:0;}
+    .columD {left:10rem;bottom:0;}
+    .columD p{text-align: right!important; margin-right: 20px;}
+    /*HERRAMIENTAS SECTION*/
+    #herramientas{padding:1rem 0; height:auto;}
+    #herramientas .titulo{font-size: 1.2rem;padding-bottom: 2rem; width:80%; display: block; margin: 0 auto; position: relative;}
+    #contenedorh {width:90%; margin: 0 auto; border-radius: 40px; padding: 2rem 0; }
+    #herramientas .triplecolumna{display:inline-flex; flex-wrap:nowrap; justify-content:center;width: 100%; height: auto; flex-direction: column;}
+    .triplecolumna li{width:100%;display:inline-flex; justify-content:center; align-items: center;align-content: center; flex-direction:row; }
+    .triplecolumna #demo3{width: 100%; margin: 2rem 0;} 
+    #herramientasa .listado{ position:relative; width:100%;display: block;}
+    #herramientas .listado li{width: 90%;}
+    #herramientas2{margin-top:0;}
+    #demo3 img {width:70%; }
+    #herramientas .divisor{ margin: 0 auto; }
+    /*PROCESO SECTION*/
+    #proceso{padding:2rem 0; height:auto;}
+    #proceso .grid-container{justify-content: center;}
+    #proceso .titulo{font-size: 1.2rem;padding-bottom: 2rem;}
+    .pasos{height:200px;width:150px;margin:0 auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .pasos span{font-size: 3.5rem;}
+    .texto_proceso{font-size: 14px;}
+
+    /*FOOTER*/
+    footer{height:40px;font-size: 11px;}
+  }
+
+
+
+
+   /* Tablets vertical 530px */
+   @media screen and (min-width: 33.125em) {
+    .menu_mov{display:none;}
+    #menuprincipal{display:block;}
+    .titulo{font-size: 1.2rem;}
+    /*BOTON CHAT*/
+    #chat-btn{ background-size:80%; width: 150px; height:70px;}
+    #chat-btn span{ top: 28px;font-size: 10px;left: 1.6rem; }
+
+    /*FORMULARIO DEMO*/
+    /*MODAL WINDOW SOLICITAR DEMO*/
+    .overlay {z-index: 10;}
+    .overlay .overlay-background {z-index: 100;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 630px;}
+    .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
+    .overlay .overlay-close:hover {opacity: .9;}
+    .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
+    .overlay .overlay-content .subtitulo {margin-top: 35px;line-height: 100%;font-weight: 400;font-size: 14px;}
+     .overlay .overlay-content {margin:65px auto;}
+    .overlay.open {z-index:1000; }
+    .overlay.short .overlay-content {margin: 30px auto;}
+
+
+    /*INICIO*/
+    .curva li{ width: 45%; height:100vh; position: relative;}
+    .curva li img{ left: 0; top: 1rem; opacity: 0.8; }
+    #txtbienvenida{position:relative;left: 0; width: 80%!important;}
+    .curva h1 {font-size:2.1rem;margin-bottom: 30px;width: 90%;text-align: center;color:black;}
+    .curva h3 {margin-bottom: 30px; font-size: 15px; width: 75%; color: black;}
+    .divisor{ background: #f93448; border-radius: 20px; height: 7px; width: 150px; margin-bottom: 2rem;}
+    .curva .divisor{background:white;}
+
+    /*VENTAJAS*/
+    #ventajas{height: auto;}
+    .doblecolumna{display:inline-flex;flex-direction:row;}
+    #ventajas .doblecolumna li{ width: 45%; height:250px;}
+    .globo_ventaja .txtazul{font-size: 1.2rem; width:80%;padding-bottom:1rem; padding-top:1.5rem;}
+    .globo_ventaja .txtazulclaro {font-size: 1.2rem; width: 100%;padding-bottom:1rem;}
+    .redes {width: 100%; height: 50px;}
+    .redes a{margin:0 20px; font-size:2rem;}
+    #WAverificacion img{width: 90%;}
+    #WAverificacion p{width: 75%;padding-top: 2rem;}
+
+    /*VENTAJAS 2*/
+    #ventajas2{height:auto; padding: 2rem 0;}
+    #ventajas2 .titulo{padding-bottom: 2rem;}
+    .cualidades{width:50%;}
+    .cualidades p{text-align: center;}
+    .cualidades span{ font-size: 4rem; padding-bottom: 30px;}
+    span.icon-integracion_icono { margin-top: 2rem; }
+    .separador{display: block!important;}
+    #interacciones{width: 100%; height: 350px;}
+    #interacciones svg{ width: 45%;}
+    .conexion{width: 5%;}
+    #conector1{left:6.5rem;}
+    #oraclel{left:0; width: 25%;}
+
+    #sagel{left: 9.5rem; top: 3rem;}
+    #conector2{left: 12rem; top: 6rem;}
+
+    #peoplesl{right: 0;}
+    #conector3{right: 7rem;}
+
+    #mdynamicsl{bottom: 4rem;}
+    #conector4{bottom: 6.5rem;}
+
+    #sapl{right: 9.5rem; top:2.5rem;}
+    #conector5{right: 12rem; top: 6rem;}
+
+
+
+          /*MACHINE LEARNING Q*/
+          #machinelearning{height:auto;}
+          #machinelearning .doblecolumna li{height: 300px; width: 50%;}
+          .imageslearning #cloud{ width: 100%;}
+          .imageslearning #learninglogo {position: absolute; margin:auto; left: 0; right: 20px; width: 50%; top:6.5rem;}
+          .degradado{ width:90%; height:auto; margin:0 auto; border-radius:30px;}
+          .txtlearning{font-size: 1rem;text-align:right; color:white; width: 90%;}
+          #texturalearning{opacity:0.1;width:auto;height: 100%;}
+
+          /*TABLERO DE CONTROL*/
+          #tablerocontrol{height: auto;padding: 2rem 0;}
+          #tablerocontrol .titulo{padding: 2rem 0; text-align: center; width: 100%;}
+          .tablerolist{width: 30%!important; height: 400px!important; padding-left:20px; }
+          .tablerolist button{width: 100%; margin-top: 1.8rem;}
+          .tablerolist .listado li{ height:50px;}
+          .listado li span{font-size: 1rem;  margin-right:10px; margin-top: 5px; }
+          .imagentablero{height: 400px;margin-top: 2rem; width:70%!important;}
+          #tablero{width: 74%;top:2.2rem; left:4rem;}
+          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:36px; left:3.8rem; z-index: 30;}
+
+    /*CLIENTES*/
+    #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
+    #clientes .titulo{padding-bottom: 2rem; width: 90%;}
+    .grid-container { position:relative; display: inline-flex;width: 100%; padding:2rem 0; justify-content:center; flex-wrap:wrap; flex-direction: row; align-content: center; align-items: center; }
+    .grid-item {width:200px; height:100px;}
+    .grid-item img{ height:75%;}
+
+    /*CONTACTO*/
+    .enlaces_contacto{ width: 20%; height: 70px; position:absolute; top:0;right:0; margin:auto; background-size: 80%; }
+    #contacto .redes{ height:60px;}
+    .input_wrapper label {width: 35%;text-align: left; padding-left: 10px; padding-top: 15px; border-radius: 20px;}
+    .input_wrapper input[type="text"]:focus + label {left: 65%;}
+    
+    /*UBICACIÓN*/
+    #ubicacion{padding-top: 2rem;}
+    #ubicacion .grid-container{width: 100%;height: auto; padding: 2rem; display: inline-flex; flex-direction: row;}
+    .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .maps{font-size: 5.5rem;}
+    .pais_map:hover .zoom_map span{font-size: 4rem;}
+    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
+    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .info_ub{ display:none; width: 100%;height:auto;}
+    .info_ub .direccion{display:block; width: 100%; text-align: center;}
+    .info_ub a{ margin:0 10px; display:block; width: 100%; text-align: center;}
+    .info_ub span {margin-right:0; display:block; width: 100%; margin-top: 3px; text-align: center;}
+
+
+    /*APARTADO PÁGINA CHATS*/
+    #saitoes{ height: 650px; }
+    #saitoes p{padding-top: 8rem; font-size: 1.2rem; width: 80%; margin: 0 auto;}
+    #saitoes img{width: 85%; margin: 0 auto; padding-top: 6rem;}
+
+    /*AYUDA SECTION*/
+    #ayuda{padding:1rem 0; height:450px; }
+    #ayuda .titulo{font-size: 1.2rem; padding-bottom: 2rem;}
+    #ayuda .doblecolumna li{ width: 50%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
+    #ayuda .listado li{width: 100%;margin: auto 15px;}
+    #ayuda .doblecolumna img {width: 45%;}
+    #ayuda #demo2{position:relative; left:-11rem; top:5rem;}
+    .columD {left:10rem;bottom:2rem;}
+    .columD p{text-align: right!important; margin-right: 10px;}
+    /*HERRAMIENTAS SECTION*/
+    #herramientas{padding:1rem 0; height:auto;}
+    #herramientas .titulo{font-size: 1.2rem;padding-bottom: 2rem; width:80%; display: block; margin: 0 auto; position: relative;}
+    #contenedorh {width:90%; margin: 0 auto; border-radius: 40px; padding: 2rem 0; }
+    #herramientas .triplecolumna{display:inline-flex; flex-wrap:nowrap; justify-content:center;width: 100%; height: auto; flex-direction:row;}
+    .triplecolumna li{width:33.33%;display:inline-flex; justify-content:center; align-items: center;align-content: center; flex-direction:row; }
+    .triplecolumna #demo3{width: 33.33%; margin: 2rem 0;} 
+    #herramientasa .listado{ position:relative; width:100%;display: block;}
+    #herramientas .listado li{width: 90%;}
+    #herramientas2{margin-top:12rem;}
+    #demo3 img {width:100%; }
+    #herramientas .divisor{ margin: 0 auto; }
+    /*PROCESO SECTION*/
+    #proceso{padding:2rem 0; height:auto;}
+    #proceso .grid-container{justify-content:space-around; width: 90%;}
+    #proceso .titulo{font-size: 1.2rem;padding-bottom: 2rem;}
+    .pasos{height:200px;width:200px;margin:0 auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .pasos span{font-size: 3.5rem;}
+    .texto_proceso{font-size: 14px;}
+
+    /*FOOTER*/
+    footer{height:40px;font-size: 11px;}
+
+   }
+
+
+
+/* Tablets horizontal 968px */
+   @media screen and (min-width: 60em) {
+    .menu_mov{display:none;}
+    #menuprincipal{display:block;}
+    .titulo{font-size: 1.6rem;}
+    /*BOTON CHAT*/
+    #chat-btn{ background-size:80%; width: 160px; height:70px;}
+    #chat-btn span{ top: 28px;font-size: 12px;left: 1.9rem; }
+
+    /*FORMULARIO DEMO*/
+    /*MODAL WINDOW SOLICITAR DEMO*/
+    .overlay {z-index: 10;}
+    .overlay .overlay-background {z-index: 100;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 530px;}
+    .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
+    .overlay .overlay-close:hover {opacity: .9;}
+    .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
+    .overlay .overlay-content .subtitulo {margin-top: 35px;line-height: 100%;font-weight: 400;font-size: 14px;}
+     .overlay .overlay-content {margin:65px auto;}
+    .overlay.open {z-index:1000; }
+    .overlay.short .overlay-content {margin: 30px auto;}
+
+
+    /*INICIO*/
+    .curva li{ width: 45%; height:90vh; position: relative;}
+    .curva li img{ left: 0; top: 1rem; opacity:1; width: 100%; height: auto;}
+    #txtbienvenida{position:relative;left: 0; width: 70%!important;}
+    .curva h1 {font-size:2.4rem;margin-bottom: 30px;width: 90%;text-align: center;color:white;}
+    .curva h3 {margin-bottom: 30px; font-size: 15px; width: 75%; color:white;}
+    .divisor{ background: #f93448; border-radius: 20px; height: 7px; width: 150px; margin-bottom: 2rem;}
+    .curva .divisor{background:white;}
+
+    /*VENTAJAS*/
+    #ventajas{height: auto;}
+    .doblecolumna{display:inline-flex;flex-direction:row;}
+    #ventajas .doblecolumna li{ width: 45%; height:400px;}
+    .globo_ventaja .txtazul{font-size: 1.6rem; width:80%;padding-bottom:1rem; padding-top:4rem;}
+    .globo_ventaja .txtazulclaro {font-size: 1.2rem; width: 100%;padding-bottom:1rem;}
+    .redes {width: 100%; height: 50px;}
+    .redes a{margin:0 20px; font-size:3.5rem;}
+    #WAverificacion img{width: 90%;}
+    #WAverificacion p{width: 75%;padding-top: 2rem;}
+
+    /*VENTAJAS 2*/
+    #ventajas2{height:auto; padding: 2rem 0;}
+    #ventajas2 .titulo{padding-bottom: 2rem;}
+    .cualidades{width:50%;}
+    .cualidades p{text-align: center; width: 70%;}
+    .cualidades span{ font-size: 4rem; padding-bottom: 30px;}
+    span.icon-integracion_icono { margin-top: 2rem; }
+    .separador{display: block!important;}
+    #interacciones{width: 100%; height: 500px;}
+    #interacciones svg{ width: 43%;}
+    .conexion{width: 5%;}
+    #conector1{left:9rem;}
+    #oraclel{left:0; width: 25%;}
+
+    #sagel{left: 12rem; top: 4.5rem;}
+    #conector2{left: 16rem; top: 8rem;}
+
+    #peoplesl{right: 0;}
+    #conector3{right: 9.5rem;}
+
+    #mdynamicsl{bottom: 4rem;}
+    #conector4{bottom: 8rem;}
+
+    #sapl{right:11.5rem; top:4rem;}
+    #conector5{right: 16rem; top: 8rem;}
+
+
+
+          /*MACHINE LEARNING Q*/
+          #machinelearning{height:auto;}
+          #machinelearning .doblecolumna li{height: 300px; width: 50%;}
+          .imageslearning #cloud{ width: 100%;}
+          .imageslearning #learninglogo {position: absolute; margin:auto; left: 0; right: 20px; width: 50%; top:6.5rem;}
+          .degradado{ width:90%; height:auto; margin:0 auto; border-radius:30px;}
+          .txtlearning{font-size: 1rem;text-align:right; color:white; width: 90%;}
+          #texturalearning{opacity:0.1;width:auto;height: 100%;}
+
+          /*TABLERO DE CONTROL*/
+          #tablerocontrol{height: auto;padding: 2rem 0;}
+          #tablerocontrol .titulo{padding: 2rem 0; text-align: center; width: 100%;}
+          .tablerolist{width: 30%!important; height: 500px!important; padding-left:20px; }
+          .tablerolist button{width: 100%; margin-top:3rem;}
+          .tablerolist .listado li{ height:60px;}
+          .listado li span{font-size: 1rem;  margin-right:20px; margin-top: 5px; }
+          .imagentablero{height: 500px;margin-top: 2rem; width:70%!important;}
+          #tablero{width: 74%;top:2rem; left:5.2rem;}
+          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:2rem; left:5.2rem; z-index: 30;}
+
+    /*CLIENTES*/
+    #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
+    #clientes .titulo{padding-bottom: 2rem; width: 90%;}
+    .grid-container { position:relative; display: inline-flex;width: 100%; padding:2rem 0; justify-content:center; flex-wrap:wrap; flex-direction: row; align-content: center; align-items: center; }
+    .grid-item {width:200px; height:130px;}
+    .grid-item img{ height:75%;}
+
+    /*CONTACTO*/
+    .enlaces_contacto{ width: 25%; height: 70px; position:absolute; top:0;right:-5rem; margin:auto; background-size: 80%; }
+    #contacto .redes{ height:60px;}
+    .input_wrapper label {width: 55%;text-align: left; padding-left: 10px; padding-top: 15px; border-radius: 20px;}
+    .input_wrapper input[type="text"]:focus + label {left: 45%;}
+    
+    /*UBICACIÓN*/
+    #ubicacion{padding-top: 2rem;}
+    #ubicacion .grid-container{width: 100%;height: auto; padding: 2rem; display: inline-flex; flex-direction: row;}
+    .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .maps{font-size: 5.5rem;}
+    .pais_map:hover .zoom_map span{font-size: 4rem;}
+    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
+    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .info_ub{ display:none; width: 100%;height:60px;}
+    .info_ub .direccion{display:inline-block; width: 70%; text-align: center;}
+    .info_ub a{ margin:0 10px; display:inline-block; width: 15%; text-align: center;}
+    .info_ub span {margin-right:0; display:inline-block; width: 5%; margin-top: 3px; text-align: center;}
+
+
+    /*APARTADO PÁGINA CHATS*/
+    #saitoes{ height:90vh; }
+    #saitoes p{padding-top: 8rem; font-size: 1.3rem; width: 80%; margin: 0 auto;}
+    #saitoes img{width: 65%; margin: 0 auto; padding-top: 6rem;}
+
+    /*AYUDA SECTION*/
+    #ayuda{padding:1rem 0; height:80vh; }
+    #ayuda .titulo{font-size: 1.3rem; padding-bottom: 2rem;}
+    #ayuda .doblecolumna li{ width: 50%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
+    #ayuda .listado li{width: 100%;margin: auto 15px;}
+    #ayuda .doblecolumna img {width: 43%;}
+    #ayuda #demo2{position:absolute;left: 0;top:6rem;}
+    .columD {left:6rem;bottom:3rem;}
+    .columD p{text-align: right!important; margin-right: 10px;}
+    /*HERRAMIENTAS SECTION*/
+    #herramientas{padding:1rem 0; height:auto;}
+    #herramientas .titulo{font-size: 1.3rem;padding-bottom: 2rem; width:80%; display: block; margin: 0 auto; position: relative;}
+    #contenedorh {width:90%; margin: 0 auto; border-radius: 40px; padding: 2rem 0; }
+    #herramientas .triplecolumna{display:inline-flex; flex-wrap:nowrap; justify-content:center;width: 100%; height: auto; flex-direction:row;}
+    .triplecolumna li{width:33.33%;display:inline-flex; justify-content:center; align-items: center;align-content: center; flex-direction:row; }
+    .triplecolumna #demo3{width: 33.33%; margin: 2rem 0;} 
+    #herramientasa .listado{ position:relative; width:100%;display: block;}
+    #herramientas .listado li{width: 90%;}
+    #herramientas2{margin-top:12rem;}
+    #demo3 img {width:70%; }
+    #herramientas .divisor{ margin: 0 auto; }
+    /*PROCESO SECTION*/
+    #proceso{padding:2rem 0; height:auto;}
+    #proceso .grid-container{justify-content:space-around; width: 90%;}
+    #proceso .titulo{font-size: 1.2rem;padding-bottom: 2rem;}
+    .pasos{height:200px;width:120px;margin:0 auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .pasos span{font-size: 3.5rem;}
+    .texto_proceso{font-size: 14px;}
+
+    /*FOOTER*/
+    footer{height:40px;font-size: 11px;}
+
+   }
+
+
+/* Desktops hasta 1280px */
+   @media screen and (min-width: 80em){
+    @media screen and (min-width: 60em) {
+    .menu_mov{display:none;}
+    #menuprincipal{display:block;}
+    .titulo{font-size: 1.6rem;}
+    /*BOTON CHAT*/
+    #chat-btn{ background-size:80%; width: 160px; height:70px;}
+    #chat-btn span{ top: 28px;font-size: 12px;left: 1.9rem; }
+
+    /*FORMULARIO DEMO*/
+    /*MODAL WINDOW SOLICITAR DEMO*/
+    .overlay {z-index: 10;}
+    .overlay .overlay-background {z-index: 100;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 530px;}
+    .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
+    .overlay .overlay-close:hover {opacity: .9;}
+    .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
+    .overlay .overlay-content .subtitulo {margin-top: 35px;line-height: 100%;font-weight: 400;font-size: 14px;}
+     .overlay .overlay-content {margin:65px auto;}
+    .overlay.open {z-index:1000; }
+    .overlay.short .overlay-content {margin: 30px auto;}
+
+
+    /*INICIO*/
+    .curva li{ width: 45%; height:90vh; position: relative;}
+    .curva li img{ left: 7rem; top:0; opacity:1; width:auto; height:100%;}
+    #txtbienvenida{position:relative;left: 0; width: 70%!important;}
+    .curva h1 {font-size:3rem;margin-bottom: 30px;width: 90%;text-align: center;color:white;}
+    .curva h3 {margin-bottom: 30px; font-size: 15px; width: 75%; color:white;}
+    .divisor{ background: #f93448; border-radius: 20px; height: 7px; width: 150px; margin-bottom: 2rem;}
+    .curva .divisor{background:white;}
+
+    /*VENTAJAS*/
+    #ventajas{height:520px;}
+    .doblecolumna{display:inline-flex;flex-direction:row;}
+    #ventajas .doblecolumna li{ width: 45%; height:500px;}
+    .globo_ventaja .txtazul{font-size: 2rem; width:80%;padding-bottom:1rem; padding-top:4rem;}
+    .globo_ventaja .txtazulclaro {font-size: 1.2rem; width: 100%;padding-bottom:1rem;}
+    .redes {width: 100%; height: 50px;}
+    .redes a{margin:0 20px; font-size:3.5rem;}
+    #WAverificacion img{width: 80%;}
+    #WAverificacion p{width: 75%;padding-top: 2rem;}
+
+    /*VENTAJAS 2*/
+    #ventajas2{height:auto; padding: 2rem 0;}
+    #ventajas2 .titulo{padding-bottom: 2rem;}
+    .cualidades{width:40%;}
+    .cualidades p{text-align: center; width: 70%;}
+    .cualidades span{ font-size: 6rem; padding-bottom: 30px;}
+    span.icon-integracion_icono { margin-top: 2rem; }
+    .separador{display: block!important;}
+    #interacciones{width: 100%; height: 600px;}
+    #interacciones svg{ width: 43%;}
+    .conexion{width: 5%;}
+    #conector1{left:13rem;}
+    #oraclel{left:0; width: 25%;}
+
+    #sagel{left: 18rem; top: 3rem;}
+    #conector2{left: 23rem; top: 8rem;}
+
+    #peoplesl{right: 0;}
+    #conector3{right:13rem;}
+
+    #mdynamicsl{bottom: 4rem;}
+    #conector4{bottom: 10rem;}
+
+    #sapl{right:18rem; top:2.5rem;}
+    #conector5{right: 23rem; top: 8rem;}
+
+
+
+          /*MACHINE LEARNING Q*/
+          #machinelearning{height:350px;}
+          #machinelearning .doblecolumna li{height: 300px; width: 50%;}
+          .imageslearning #cloud{ width: 80%;}
+          .imageslearning #learninglogo {position: absolute; margin:auto; left: 0; right: 20px; width: 40%; top:5.5rem;}
+          .degradado{ width:90%; height:auto; margin:0 auto; border-radius:30px;}
+          .txtlearning{font-size: 1.2rem;text-align:right; color:white; width: 80%;}
+          #texturalearning{opacity:0.1;width:auto;height: 100%;}
+
+          /*TABLERO DE CONTROL*/
+          #tablerocontrol{height: auto;padding: 2rem 0;}
+          #tablerocontrol .titulo{padding: 2rem 0; text-align: center; width: 100%;}
+          .tablerolist{width: 25%!important; height: 650px!important; padding-left:70px; }
+          .tablerolist button{width: 100%; margin-top:3rem;}
+          .tablerolist .listado li{ height:70px;}
+          .listado li span{font-size: 1rem;  margin-right:20px; margin-top: 5px; }
+          .imagentablero{height: 650px;margin-top: 2rem; width:70%!important;}
+          #tablero{width: 74%;top:2.4rem; left:6.8rem;}
+          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:2.4rem; left:6.9rem; z-index: 30;}
+
+    /*CLIENTES*/
+    #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
+    #clientes .titulo{padding-bottom: 2rem; width: 80%;}
+    .grid-container { position:relative; display: inline-flex;width: 100%; padding:2rem 0; justify-content:center; flex-wrap:wrap; flex-direction: row; align-content: center; align-items: center; }
+    .grid-item {width:200px; height:130px;}
+    .grid-item img{ height:75%;}
+
+    /*CONTACTO*/
+    .enlaces_contacto{ width: 22%; height: 70px; position:absolute; top:0;right:0; margin:auto; background-size: 80%; }
+    #contacto .contenedor-formcontacto {width:60%;}
+    #contacto .redes{ height:60px;}
+    .input_wrapper label {width: 30%;text-align: left; padding-left: 10px; padding-top: 20px; border-radius: 20px;}
+    .input_wrapper input[type="text"]:focus + label {left: 45%;}
+    
+    /*UBICACIÓN*/
+    #ubicacion{padding-top: 2rem; height:350px}
+    #ubicacion .grid-container{width: 100%;height:auto; padding: 2rem; display: inline-flex; flex-direction: row;}
+    .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .maps{font-size: 5.5rem;}
+    .pais_map:hover .zoom_map span{font-size: 4rem;}
+    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
+    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .info_ub{ display:none; width: 100%;height:60px;}
+    .info_ub .direccion{display:inline-block; width: 70%; text-align: center;}
+    .info_ub a{ margin:0 10px; display:inline-block; width: 15%; text-align: center;}
+    .info_ub span {margin-right:0; display:inline-block; width: 5%; margin-top: 3px; text-align: center;}
+
+
+    /*APARTADO PÁGINA CHATS*/
+    #saitoes{ height:100vh; }
+    #saitoes p{padding-top: 8rem; font-size: 1.3rem; width: 80%; margin: 0 auto;}
+    #saitoes img{width: 50%; margin: 0 auto; padding-top: 6rem;}
+
+    /*AYUDA SECTION*/
+    #ayuda{padding:2rem 0; height:800px; }
+    #ayuda .titulo{font-size: 1.3rem; padding-bottom: 2rem;}
+    #ayuda .doblecolumna li{ width: 50%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
+    #ayuda .listado li{width: 100%;margin: auto 15px;}
+    #ayuda .doblecolumna img {width: 40%;}
+    #ayuda #demo2{position:absolute;left:3rem;top:3rem;}
+    .columD {left:6rem;bottom:3rem;}
+    .columD p{text-align: right!important; margin-right: 10px;}
+    /*HERRAMIENTAS SECTION*/
+    #herramientas{padding:2rem 0; height:auto;}
+    #herramientas .titulo{font-size: 1.3rem;padding-bottom: 2rem; width:80%; display: block; margin: 0 auto; position: relative;}
+    #contenedorh {width:90%; margin: 0 auto; border-radius: 40px; padding: 2rem 0; }
+    #herramientas .triplecolumna{display:inline-flex; flex-wrap:nowrap; justify-content:center;width: 100%; height: auto; flex-direction:row;}
+    .triplecolumna li{width:25%;display:inline-flex; justify-content:center; align-items: center;align-content: center; flex-direction:row; }
+    .triplecolumna #demo3{width: 50%; margin: 2rem 0;} 
+    #herramientasa .listado{ position:relative; width:100%;display: block;}
+    #herramientas .listado li{width: 90%;}
+    #herramientas2{margin-top:12rem;}
+    #demo3 img {width:40%; }
+    #herramientas .divisor{ margin: 0 auto; }
+    /*PROCESO SECTION*/
+    #proceso{padding:2rem 0; height:auto;}
+    #proceso .grid-container{justify-content:space-around; width: 90%;}
+    #proceso .titulo{font-size: 1.2rem;padding-bottom: 2rem;}
+    .pasos{height:200px;width:120px;margin:0 auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
+    .pasos span{font-size: 5.5rem;}
+    .texto_proceso{font-size:14px;}
+
+    /*FOOTER*/
+    footer{height:40px;font-size: 11px;}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+

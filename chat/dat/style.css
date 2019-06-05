@@ -1,0 +1,57 @@
+<style>
+#placeholder
+{
+  text-align: center;
+  margin-top: .5em;
+  display: none;
+}
+
+#main-wrapper
+{
+  display: block;
+}
+.clearfix
+{
+  border-radius: 15px;
+  width: auto;
+  clear: both;
+}
+
+.titulo2
+{
+  color: orange;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.input-field
+{
+  background-color:gray;
+  width: auto;
+  border-radius: 0px,10px,0px,10px;
+}
+#titulo{
+  background:transparent;
+  padding: 5px;
+}
+.imgcolexp{
+  float:right;
+  width:50px;
+  cursor:pointer;
+}
+.titleBot
+{
+  background-image: url("img/bg.jpg");
+  border-radius: 10px;
+  text-align: center;
+  font-family: inherit;
+  width: auto;
+  height: auto;
+  background-color:#b0dbe6;
+}
+#contenido{
+  width: 400px;
+  
+  padding:0px 0px;
+  background-color:#CFCFCF;
+}
+                  </style>
