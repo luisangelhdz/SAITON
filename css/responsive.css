@@ -24,6 +24,7 @@
 
 
     /*INICIO*/
+     #bienvenida .curva{ background: url(../img/isologogray.png)no-repeat 80% bottom rgba(117,117,117,0.2);}
     .curva li{ width: 100%; height:100vh; position: relative;}
     .curva li img{ left: 0; top: 1rem; opacity: 0.6; }
     #txtbienvenida{position: absolute;left: 0; width: 100%!important;}
@@ -34,6 +35,7 @@
     .curva .divisor{background:#f93448;}
 
     /*VENTAJAS*/
+    #ventajas {height: auto;}
     .doblecolumna{display:flex;flex-direction:column;}
     #ventajas .doblecolumna li{ width: 90%; height:300px;}
     .globo_ventaja .txtazul{font-size: 1.2rem; width:80%;padding-bottom:1rem; padding-top:3rem;}
@@ -41,7 +43,7 @@
     .redes {width: 100%; height: 50px;}
     .redes a{margin:0 20px; font-size: 1.8rem;}
     #WAverificacion img{width: 100%;}
-    #WAverificacion p{width: 55%;padding-top: 2rem;}
+    #WAverificacion p{width: 80%;padding-top: 2rem; position: relative;}
 
     /*VENTAJAS 2*/
     #ventajas2{height:auto; padding: 2rem 0;}
@@ -50,21 +52,21 @@
     .cualidades span{ font-size: 6rem; padding-bottom: 30px;}
     span.icon-integracion_icono { margin-top: 2rem; }
     .separador{display: none!important;}
-    #interacciones{width: 100%; height: 350px;}
-    #interacciones svg{ width: 45%;}
+    #interacciones{width: 90%; height: 350px;}
+    #interacciones svg{ width: 41%;}
     .conexion{width: 5%;}
-    #conector1{left:5rem;}
-    #oraclel{left:0;}
-    #sagel{left: 8rem; top: 5rem;}
+    #conector1{left:5rem; width: 3%;}
+    #oraclel{left:0; width: 28%;}
+    #sagel{left: 6.5rem; top: 6rem; width:20%;}
     #conector2{left: 10rem; top: 8rem;}
 
     #peoplesl{right: 0;}
-    #conector3{right: 5rem;}
+    #conector3{right: 5rem; width: 3%;}
 
-    #mdynamicsl{bottom: 5rem;}
-    #conector4{bottom: 7rem;}
+    #mdynamicsl{bottom: 6rem; width: 35%;}
+    #conector4{bottom: 8rem;}
 
-    #sapl{right: 5rem; top:4.5rem;}
+    #sapl{right: 5rem; top:5.2rem; width: 20%;}
     #conector5{right: 8rem; top: 8rem;}
 
 
@@ -86,8 +88,8 @@
           .tablerolist .listado li{ height:50px;}
           .listado li span{font-size: 1rem;  margin-right:10px; margin-top: 5px; }
           .imagentablero{height: 350px;margin-top: 2rem; width:100%!important;}
-          #tablero{width: 74%;top:3.4rem; left:2.9rem;}
-          #tablerogif{display: none; z-index: 60;width:74%;position: absolute; top:3.4rem; left:2.7rem; z-index: 30;}
+          #tablero{width: 95%;top:1.7rem; left:0.3rem;}
+          #tablerogif{display: none; z-index: 60;width:95%;position: absolute; top:0.7rem; left:0.6rem; z-index: 30;}
 
     /*CLIENTES*/
     #clientes{height: auto; padding: 1rem 0;display: flex; justify-content: center; flex-direction: column; align-items: center; align-content: center;}
@@ -101,6 +103,10 @@
     #contacto .redes{ height:50px;}
     .input_wrapper label {width: 55%;text-align: left; padding-left: 10px; padding-top: 5px; border-radius: 20px;}
     .input_wrapper input[type="text"]:focus + label {left: 45%;}
+
+    /*PARTNERS*/
+    #partners .titulo{margin-bottom: 1.5rem;}      
+    #partners .logos li{width: 120px; height: 50px;margin-right: 20px;}
     
     /*UBICACIÓN*/
     #ubicacion{padding-top: 2rem;}
@@ -108,12 +114,14 @@
     .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
     .maps{font-size: 5.5rem;}
     .pais_map:hover .zoom_map span{font-size: 4rem;}
-    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
-    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem; background-size: 40%;}
+    .zoom_map span{position: absolute; font-size:2.5rem;top:0.5rem; right: 1rem;}
     .info_ub{ display:none; width: 100%;height:auto;}
     .info_ub .direccion{display:block; width: 100%; text-align: center;}
-    .info_ub a{ margin:0 10px; display:block; width: 100%; text-align: center;}
-    .info_ub span {margin-right:0; display:block; width: 100%; margin-top: 3px; text-align: center;}
+    .info_ub a{ margin:0; display:block; width: 100%; text-align: center;}
+    .info_ub span {margin-right:0; display:block; width:100%; margin-top: 3px; text-align: center;}
+    #yucatan_estado span {font-size: 2.5rem;}
+     #yucatan_estado {top:0; left: 5rem;}
 
 
     /*APARTADO PÁGINA CHATS*/
@@ -124,7 +132,7 @@
     #ayuda{padding:1rem 0; height:auto; }
     #ayuda .titulo{font-size: 1.2rem; padding-bottom: 2rem;}
     #ayuda .doblecolumna li{ width: 100%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
-    #ayuda .listado li{width: 100%;margin: auto 15px;}
+    #ayuda .listado li{width: 100%;margin: auto 10px;}
     #ayuda .doblecolumna img {width: 45%;}
     #ayuda #demo2{position:relative; left:-11rem; top:0;}
     .columD {left:10rem;bottom:0;}
@@ -159,7 +167,7 @@
    /* Tablets vertical 530px */
    @media screen and (min-width: 33.125em) {
     .menu_mov{display:none;}
-    #menuprincipal{display:block;}
+    #menuprincipal{display:block; width: 57%;}
     .titulo{font-size: 1.2rem;}
     /*BOTON CHAT*/
     #chat-btn{ background-size:80%; width: 150px; height:70px;}
@@ -180,6 +188,7 @@
 
 
     /*INICIO*/
+     #bienvenida .curva{ background: url(../img/isologogray.png)no-repeat -120% bottom rgba(117,117,117,0.2);}
     .curva li{ width: 45%; height:100vh; position: relative;}
     .curva li img{ left: 0; top: 1rem; opacity: 0.8; }
     #txtbienvenida{position:relative;left: 0; width: 80%!important;}
@@ -197,7 +206,7 @@
     .redes {width: 100%; height: 50px;}
     .redes a{margin:0 20px; font-size:2rem;}
     #WAverificacion img{width: 90%;}
-    #WAverificacion p{width: 75%;padding-top: 2rem;}
+    #WAverificacion p{width: 75%;padding-top: 2rem; position: relative;}
 
     /*VENTAJAS 2*/
     #ventajas2{height:auto; padding: 2rem 0;}
@@ -210,19 +219,19 @@
     #interacciones{width: 100%; height: 350px;}
     #interacciones svg{ width: 45%;}
     .conexion{width: 5%;}
-    #conector1{left:6.5rem;}
+    #conector1{left:6.5rem; width: 5%;}
     #oraclel{left:0; width: 25%;}
 
-    #sagel{left: 9.5rem; top: 3rem;}
+    #sagel{left: 9.5rem; top: 3rem; width: 14%;}
     #conector2{left: 12rem; top: 6rem;}
 
     #peoplesl{right: 0;}
-    #conector3{right: 7rem;}
+    #conector3{right: 7rem; width: 5%;}
 
-    #mdynamicsl{bottom: 4rem;}
+    #mdynamicsl{bottom: 4rem; width: 20%;}
     #conector4{bottom: 6.5rem;}
 
-    #sapl{right: 9.5rem; top:2.5rem;}
+    #sapl{right: 9.5rem; top:2.5rem; width: 14%;}
     #conector5{right: 12rem; top: 6rem;}
 
 
@@ -244,8 +253,8 @@
           .tablerolist .listado li{ height:50px;}
           .listado li span{font-size: 1rem;  margin-right:10px; margin-top: 5px; }
           .imagentablero{height: 400px;margin-top: 2rem; width:70%!important;}
-          #tablero{width: 74%;top:2.2rem; left:4rem;}
-          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:36px; left:3.8rem; z-index: 30;}
+          #tablero{width: 95%;top:0; left:0.5rem;}
+          #tablerogif{display:none; z-index: 60;width:95%;position: absolute; top:0; left:0.5rem; z-index: 30;}
 
     /*CLIENTES*/
     #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
@@ -255,10 +264,14 @@
     .grid-item img{ height:75%;}
 
     /*CONTACTO*/
-    .enlaces_contacto{ width: 20%; height: 70px; position:absolute; top:0;right:0; margin:auto; background-size: 80%; }
+    .enlaces_contacto{ width: 28%; height: 70px; position:absolute; top:-1rem;right:-6rem; margin:auto; background-size: 80%; }
     #contacto .redes{ height:60px;}
     .input_wrapper label {width: 35%;text-align: left; padding-left: 10px; padding-top: 15px; border-radius: 20px;}
     .input_wrapper input[type="text"]:focus + label {left: 65%;}
+
+    /*PARTNERS*/
+    #partners .titulo{margin-bottom: 1.5rem;}      
+    #partners .logos li{width: 180px; height: 50px;margin-right: 20px;}
     
     /*UBICACIÓN*/
     #ubicacion{padding-top: 2rem;}
@@ -267,7 +280,7 @@
     .maps{font-size: 5.5rem;}
     .pais_map:hover .zoom_map span{font-size: 4rem;}
     .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
-    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .zoom_map span{position: absolute; font-size:2.6rem;top:0.5rem; right: 1rem;}
     .info_ub{ display:none; width: 100%;height:auto;}
     .info_ub .direccion{display:block; width: 100%; text-align: center;}
     .info_ub a{ margin:0 10px; display:block; width: 100%; text-align: center;}
@@ -283,8 +296,8 @@
     #ayuda{padding:1rem 0; height:450px; }
     #ayuda .titulo{font-size: 1.2rem; padding-bottom: 2rem;}
     #ayuda .doblecolumna li{ width: 50%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
-    #ayuda .listado li{width: 100%;margin: auto 15px;}
-    #ayuda .doblecolumna img {width: 45%;}
+    #ayuda .listado li{width: 100%;margin: auto 5px;}
+    #ayuda .doblecolumna img {width: 40%;}
     #ayuda #demo2{position:relative; left:-11rem; top:5rem;}
     .columD {left:10rem;bottom:2rem;}
     .columD p{text-align: right!important; margin-right: 10px;}
@@ -328,7 +341,7 @@
     /*MODAL WINDOW SOLICITAR DEMO*/
     .overlay {z-index: 10;}
     .overlay .overlay-background {z-index: 100;}
-    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 530px;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height:650px;}
     .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
     .overlay .overlay-close:hover {opacity: .9;}
     .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
@@ -339,6 +352,7 @@
 
 
     /*INICIO*/
+     #bienvenida .curva{ background: url(../img/isologogray.png)no-repeat 270% bottom rgba(117,117,117,0.2);}
     .curva li{ width: 45%; height:90vh; position: relative;}
     .curva li img{ left: 0; top: 1rem; opacity:1; width: 100%; height: auto;}
     #txtbienvenida{position:relative;left: 0; width: 70%!important;}
@@ -356,7 +370,7 @@
     .redes {width: 100%; height: 50px;}
     .redes a{margin:0 20px; font-size:3.5rem;}
     #WAverificacion img{width: 90%;}
-    #WAverificacion p{width: 75%;padding-top: 2rem;}
+    #WAverificacion p{width: 55%;padding-top: 2rem;position: absolute; bottom: 3rem;right: 1rem;}
 
     /*VENTAJAS 2*/
     #ventajas2{height:auto; padding: 2rem 0;}
@@ -372,16 +386,16 @@
     #conector1{left:9rem;}
     #oraclel{left:0; width: 25%;}
 
-    #sagel{left: 12rem; top: 4.5rem;}
+    #sagel{left: 12rem; top: 4.5rem; width: 18%;}
     #conector2{left: 16rem; top: 8rem;}
 
     #peoplesl{right: 0;}
     #conector3{right: 9.5rem;}
 
-    #mdynamicsl{bottom: 4rem;}
+    #mdynamicsl{bottom: 4rem; width: 25%;}
     #conector4{bottom: 8rem;}
 
-    #sapl{right:11.5rem; top:4rem;}
+    #sapl{right:11.5rem; top:3rem; width: 18%;}
     #conector5{right: 16rem; top: 8rem;}
 
 
@@ -403,8 +417,8 @@
           .tablerolist .listado li{ height:60px;}
           .listado li span{font-size: 1rem;  margin-right:20px; margin-top: 5px; }
           .imagentablero{height: 500px;margin-top: 2rem; width:70%!important;}
-          #tablero{width: 74%;top:2rem; left:5.2rem;}
-          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:2rem; left:5.2rem; z-index: 30;}
+          #tablero{width: 95%;top:-1rem; left:0.6rem;}
+          #tablerogif{display:none; z-index: 60;width:95%;position: absolute; top:-1rem; left:0.6rem; z-index: 30;}
 
     /*CLIENTES*/
     #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
@@ -414,10 +428,15 @@
     .grid-item img{ height:75%;}
 
     /*CONTACTO*/
-    .enlaces_contacto{ width: 25%; height: 70px; position:absolute; top:0;right:-5rem; margin:auto; background-size: 80%; }
+    .enlaces_contacto{ width: 28%; height: 70px; position:absolute; top:-1rem;right:-6rem; margin:auto; background-size: 80%; }
     #contacto .redes{ height:60px;}
     .input_wrapper label {width: 55%;text-align: left; padding-left: 10px; padding-top: 15px; border-radius: 20px;}
     .input_wrapper input[type="text"]:focus + label {left: 45%;}
+
+     /*PARTNERS*/
+    #partners .titulo{margin-bottom: 1.5rem;}      
+    #partners .logos li{width: 180px; height: 50px;margin-right: 20px;}
+    
     
     /*UBICACIÓN*/
     #ubicacion{padding-top: 2rem;}
@@ -426,10 +445,10 @@
     .maps{font-size: 5.5rem;}
     .pais_map:hover .zoom_map span{font-size: 4rem;}
     .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
-    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .zoom_map span{position: absolute; font-size:4rem;top:0.5rem; right: 1rem;}
     .info_ub{ display:none; width: 100%;height:60px;}
-    .info_ub .direccion{display:inline-block; width: 70%; text-align: center;}
-    .info_ub a{ margin:0 10px; display:inline-block; width: 15%; text-align: center;}
+    .info_ub .direccion{display:inline-block; width: 35%; text-align: center;}
+    .info_ub a{ margin:0 10px; display:inline-block; width: 20%; text-align: center;}
     .info_ub span {margin-right:0; display:inline-block; width: 5%; margin-top: 3px; text-align: center;}
 
 
@@ -443,7 +462,7 @@
     #ayuda .titulo{font-size: 1.3rem; padding-bottom: 2rem;}
     #ayuda .doblecolumna li{ width: 50%; display: inline-flex; flex-direction: row; justify-content: center;align-content: center; align-items:center; }
     #ayuda .listado li{width: 100%;margin: auto 15px;}
-    #ayuda .doblecolumna img {width: 43%;}
+    #ayuda .doblecolumna img {width: 40%;}
     #ayuda #demo2{position:absolute;left: 0;top:6rem;}
     .columD {left:6rem;bottom:3rem;}
     .columD p{text-align: right!important; margin-right: 10px;}
@@ -475,7 +494,6 @@
 
 /* Desktops hasta 1280px */
    @media screen and (min-width: 80em){
-    @media screen and (min-width: 60em) {
     .menu_mov{display:none;}
     #menuprincipal{display:block;}
     .titulo{font-size: 1.6rem;}
@@ -487,7 +505,7 @@
     /*MODAL WINDOW SOLICITAR DEMO*/
     .overlay {z-index: 10;}
     .overlay .overlay-background {z-index: 100;}
-    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height: 530px;}
+    .overlay .overlay-content {width: 90%;margin: 100px auto 0;z-index: 300;height:90vh;}
     .overlay .overlay-close {display: block;font-size:1.3rem;cursor: pointer;position: absolute;top:30px;right:30px;opacity:1;z-index:300; color: white;}
     .overlay .overlay-close:hover {opacity: .9;}
     .overlay .titulo{color:white;text-align: center;text-transform: uppercase;}
@@ -498,8 +516,9 @@
 
 
     /*INICIO*/
+    #bienvenida .curva{ background: url(../img/isologogray.png)no-repeat 120% bottom rgba(117,117,117,0.2);}
     .curva li{ width: 45%; height:90vh; position: relative;}
-    .curva li img{ left: 7rem; top:0; opacity:1; width:auto; height:100%;}
+    .curva li img{ left: 2rem; top:0; opacity:1; width:auto; height:100%;}
     #txtbienvenida{position:relative;left: 0; width: 70%!important;}
     .curva h1 {font-size:3rem;margin-bottom: 30px;width: 90%;text-align: center;color:white;}
     .curva h3 {margin-bottom: 30px; font-size: 15px; width: 75%; color:white;}
@@ -514,8 +533,8 @@
     .globo_ventaja .txtazulclaro {font-size: 1.2rem; width: 100%;padding-bottom:1rem;}
     .redes {width: 100%; height: 50px;}
     .redes a{margin:0 20px; font-size:3.5rem;}
-    #WAverificacion img{width: 80%;}
-    #WAverificacion p{width: 75%;padding-top: 2rem;}
+    #WAverificacion img{width: 100%;}
+    #WAverificacion p{width: 55%;padding-top:0;bottom: 4rem;right: 1rem; position: absolute;}
 
     /*VENTAJAS 2*/
     #ventajas2{height:auto; padding: 2rem 0;}
@@ -528,19 +547,19 @@
     #interacciones{width: 100%; height: 600px;}
     #interacciones svg{ width: 43%;}
     .conexion{width: 5%;}
-    #conector1{left:13rem;}
+    #conector1{left:13rem; width: 5%;}
     #oraclel{left:0; width: 25%;}
 
-    #sagel{left: 18rem; top: 3rem;}
+    #sagel{left: 18rem; top: 4rem; width: 14%;}
     #conector2{left: 23rem; top: 8rem;}
 
     #peoplesl{right: 0;}
-    #conector3{right:13rem;}
+    #conector3{right:13rem; width: 5%;}
 
-    #mdynamicsl{bottom: 4rem;}
+    #mdynamicsl{bottom: 4rem; width: 25%;}
     #conector4{bottom: 10rem;}
 
-    #sapl{right:18rem; top:2.5rem;}
+    #sapl{right:18rem; top:2.5rem; width: 14%;}
     #conector5{right: 23rem; top: 8rem;}
 
 
@@ -562,8 +581,8 @@
           .tablerolist .listado li{ height:70px;}
           .listado li span{font-size: 1rem;  margin-right:20px; margin-top: 5px; }
           .imagentablero{height: 650px;margin-top: 2rem; width:70%!important;}
-          #tablero{width: 74%;top:2.4rem; left:6.8rem;}
-          #tablerogif{display:none; z-index: 60;width:74%;position: absolute; top:2.4rem; left:6.9rem; z-index: 30;}
+          #tablero{width: 95%;top:-2.1rem; left:0.7rem;}
+          #tablerogif{display:none; z-index: 60;width:95%;position: absolute; top:-4.7rem; left:1.5rem; z-index: 30;}
 
     /*CLIENTES*/
     #clientes{height: auto; padding: 2rem 0;display: flex; justify-content:space-between; flex-direction: column; align-items: center; align-content: center;}
@@ -578,17 +597,22 @@
     #contacto .redes{ height:60px;}
     .input_wrapper label {width: 30%;text-align: left; padding-left: 10px; padding-top: 20px; border-radius: 20px;}
     .input_wrapper input[type="text"]:focus + label {left: 45%;}
+
+     /*PARTNERS*/
+    #partners .titulo{margin-bottom: 2rem;}      
+    #partners .logos li{width: 200px; height: 50px;margin-right: 20px;}
+    
     
     /*UBICACIÓN*/
-    #ubicacion{padding-top: 2rem; height:350px}
+    #ubicacion{padding-top: 2rem; height:320px}
     #ubicacion .grid-container{width: 100%;height:auto; padding: 2rem; display: inline-flex; flex-direction: row;}
     .pais_map{height: 100px;width:150px;margin:20px auto;position: relative; justify-content:space-between;align-items: center; align-content: center;}
     .maps{font-size: 5.5rem;}
     .pais_map:hover .zoom_map span{font-size: 4rem;}
     .zoom_map{width: 100px; height: 100px; top:-1.2rem; left: 3rem;}
-    .zoom_map span{position: absolute; font-size:10px;top:0.5rem; right: 1rem;}
+    .zoom_map span{position: absolute; font-size:4rem;top:0.5rem; right: 1rem;}
     .info_ub{ display:none; width: 100%;height:60px;}
-    .info_ub .direccion{display:inline-block; width: 70%; text-align: center;}
+    .info_ub .direccion{display:inline-block; width: 35%; text-align: center;}
     .info_ub a{ margin:0 10px; display:inline-block; width: 15%; text-align: center;}
     .info_ub span {margin-right:0; display:inline-block; width: 5%; margin-top: 3px; text-align: center;}
 

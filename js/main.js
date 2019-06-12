@@ -83,27 +83,55 @@ $("#tablero").hover(function(){
 });
 
 
-//ubicacion
-$("#cdmx").click(function(){
-  $('#cdmx_info').toggle();
+//UBICACIÓN
+// DESPLEGAR INFORMACION
+function clean(){
+  $("#cdmx_info").css('diplay', 'none');
+  $("#nl_info").css('diplay', 'none');
+  $("#jalisco_info").css('diplay', 'none');
+  $("#yucatan_info").css('diplay', 'none');
+  $("#usa_info").css('diplay', 'none');
+  $(".zoom_map").css('display','none');
+  $(".info_ub").css('display', 'none');
+  $(".maps").removeClass('active');
+} 
+$("#cdmx").show(function() {
+  clean();
 });
-$("#nuevoleon").click(function(){
-  $('#nl_info').toggle();
+// INFORMACION WINDOW ACERCA DE 
+$("#cdmx").click(function() {
+  clean();
+  $("#cdmx_info").css('display','block');
+  $("#cdmx .zoom_map").css('display','block');
+  $("#cdmx .maps").addClass('active');
 });
-$("#jalisco").click(function(){
-  $('#jalisco_info').toggle();
+ 
+ $("#nuevoleon").click(function() {
+  clean();
+  $("#nl_info").css('display','block');
+  $("#nuevoleon .zoom_map").css('display','block');
+  $("#nuevoleon .maps").addClass('active');
 });
-$("#yucatan").click(function(){
-  $('#yucatan_info').toggle();
+
+  $("#jalisco").click(function() {
+  clean();
+  $("#jalisco_info").css('display','block');
+  $("#jalisco .zoom_map").css('display','block');
+  $("#jalisco .maps").addClass('active');
 });
-$("#usa").click(function(){
-  $('#usa_info').toggle();
+
+  $("#yucatan").click(function() {
+  clean();
+  $("#yucatan_info").css('display','block');
+  $("#yucatan .zoom_map").css('display','block');
+  $("#yucatan .maps").addClass('active');
 });
-$("#argentina").click(function(){
-  $('#argentina_info').toggle();
-});
-$("#pakistan").click(function(){
-  $('#pakistan_info').toggle();
+
+  $("#usa").click(function() {
+  clean();
+  $("#usa_info").css('display','block');
+  $("#usa .zoom_map").css('display','block');
+  $("#usa .maps").addClass('active');
 });
 
 
@@ -130,5 +158,3 @@ $("#downarrow").click(function(){
       $(this).css("animation-delay", delay + "s")     
     });
   });
-
-//Animaciones

@@ -1,0 +1,408 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title> SAITO | Chats </title>
+  <meta name="description" content="es">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+
+
+</head>
+
+<body>
+  <header id="headerescritorio">
+    <div class="logotipo"><img src="img/saitologo.svg" alt="imagotipo Saito"></div>
+    <nav id="menuprincipal">
+      <ul class="nav__list">
+          <li class="nav__menu"> <a href="index.html">Saito</a></li>
+          <li class="boton">
+             <button class="popup-trigger btnsolicitar solicita">Solicitar Demo</button>
+          </li>
+          <li class="links-lang">
+              <a href="saito_esp" class="langActive">ES</a>
+              <a href="saito_ing">EN</a>
+          </li>
+     </ul>
+    </nav>
+  </header>
+
+  <div class="menu_mov">
+
+      <a href="index.html" class="logomov"><img src="img/saitologo.svg" alt="imagotipo Saito"></a>
+
+      <input id="burger" type="checkbox" />
+
+      <label for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="navmovil">    
+         <ul>
+          <li> <a href="index.html">Saito</a></li>
+          <li class="boton">
+             <button class="popup-trigger btnsolicitar solicita">Solicitar Demo</button>
+          </li>
+          <li>
+              <a href="saito_esp" class="langActive">ES</a>
+              <a href="saito_ing">EN</a>
+          </li>
+     </ul>
+      </nav>
+  </div>
+
+  <main>
+    <a href="#chatbox" id="chat-btn" class="floating"><span>¡Habla conmigo!</span></a>
+    <div id="chatbox" class="hidden">
+       <div class="contenedor_chatbox">
+            <article class="chatheader">
+                <img src="img/isologo_white.png" alt="isologo saito white">
+                <div class="text_status">
+                  <p><span class="resaltar">Saito</span> Web Chat</p>
+                  <p class="status">En línea</p>
+                </div>
+                <span class="arrow icon-arrowdown_icono" id="downarrow"></span>
+            </article>
+            <form id="chatform">
+               <p class="mensaje"> Hola,<br> ¿En qué podemos ayudarte? ... </p>
+               <div class="campos">
+                <input type="text" name="nombre" placeholder="Nombre Completo">
+                <input type="text" name="telefono" placeholder="Teléfono">
+                <input type="mail" name="email" placeholder="Correo electrónico">
+                <input type="text" name="empresa" placeholder="Empresa">
+               </div>
+                <button type="submit" name="comenzar"> Comenzar a chatear </button>
+            </form>       
+       </div>
+    </div>
+
+
+    <section id="saitoes" class="bgwhite">
+          <p class="titulo">Saito es un traje a la medida, adaptable a cualquier necesidad de uso</p>
+          <img src="img/animacionlogo2.gif" alt="gif saito imagotipo" class="pullUp">
+          <div class="mouse_scroll">
+              <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+              </div>
+          </div>
+    </section>
+
+    <section id="ayuda" class="bgwhite">
+      <p class="titulo"> Optimiza las vías de comunicación internas y externas </p>
+        <ul class="doblecolumna">
+                 <li>
+                    <ul class="listado">
+                      <li><span class="icon-circulo_icono"></span><p>Ventas</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Atención al cliente</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Citas y reservaciones</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Solicitudes y pedidos</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Soporte técnico</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Inscripciones</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Encuestas</p></li>        
+                    </ul>
+                    <img src="img/demo1.gif">
+                 </li>
+                 <li>
+                   <ul class="listado columD">
+                      <li><p>Indicadores</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Capacitación</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Dudas internas</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Reservaciones de salas</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Registrar visitas</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Reservar transporte</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Reportes de ventas</p><span class="icon-circulo_icono"></span></li>        
+                    </ul>
+                   <img src="img/demo2.gif" id="demo2">                  
+                 </li>
+              </ul>  
+          
+    </section>
+
+     <section id="herramientas" class="bgwhite">
+           <div id="contenedorh"> 
+              <p class="titulo"> Puede equiparse con múltiples herramientas </p>
+              <ul class="triplecolumna">
+                <li>
+                    <ul class="listado">
+                      <li><span class="icon-circulo_icono"></span><p>Rastrear pedidos</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Pagos en linea</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Localización</p></li>
+                      <li><span class="icon-circulo_icono"></span><p>Realizar cotizaciones</p></li>
+                    </ul> 
+                 </li>
+                 <li id="demo3"><img src="img/demo3.gif"></li>
+                 <li>
+                   <ul class="listado columD" id="herramientas2">
+                      <li><p>Ver calendarios</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Ver horarios</p><span class="icon-circulo_icono"></span></li>
+                      <li><p>Redirigir conversaciones</p><span class="icon-circulo_icono"></span></li>
+                    </ul>               
+                 </li>
+              </ul>
+            </div>
+              <div class="divisor"></div>  
+    </section>
+
+
+      <section id="proceso" class="bgwhite panel">
+              <p class="titulo"> Nuestro proceso </p>
+                <ul class="grid-container">
+                  <li class="pasos" id="investigacion">
+                        <span class="icon-investigacion_icono pulse"></span>
+                        <p class="tituloproceso"> Investigación </p>
+                        <p class="texto_proceso"> Conocemos tus necesidades y metas </p>
+                        
+                  </li>
+                   <li class="pasos" id="proyecto">
+                        <span class="icon-proyecto_icono pulse"></span>
+                        <p class="tituloproceso"> Proyecto </p>
+                        <p class="texto_proceso"> Adaptamos nuestras herramientas para crear la solución </p>                       
+                  </li>
+                   <li class="pasos" id="entrenamiento">
+                        <span class="icon-entrenamiento_icono pulse"></span>
+                        <p class="tituloproceso"> Entrenamiento </p>
+                        <p class="texto_proceso"> Alimentamos y capacitamos a SAITO con la información de tu empresa </p>
+                  </li>
+                   <li class="pasos" id="implementacion">
+                        <span class="icon-implementacion_icono pulse"></span>
+                        <p class="tituloproceso"> Implementación </p>
+                        <p class="texto_proceso"> Alojamos a Saito en las plataformas que elijas </p>
+                  </li>
+                   <li class="pasos" id="accion">
+                        <span class="icon-accion_icono pulse"></span>
+                        <p class="tituloproceso"> En Acción </p>
+                        <p class="texto_proceso"> SAITO atiende a tus clientes siempre alegre y al instante 24/7 </p>
+                  </li>
+                </ul> 
+                
+      </section>
+
+  </main>
+
+  <footer>
+     <p>&copy;2019 Springlabs. <span> Todos los derechos reservados</span></p>
+  </footer>
+
+
+<div class="overlay solicitardemo">
+  <div class="overlay-background" id="overlay-background"></div>
+  <div class="icon-cerrar_icono overlay-close" id="overlay-close"></div>
+  <div class="overlay-content" id="overlay-content">
+    <p class="titulo">Bienvenido a la era de la tecnología y la innovación digital </h1>
+    <p class="subtitulo">Saito es el aliado perfecto, y estás a punto de descubrirlo. Para solicitar una demostración por favor completa el siguiente formulario: </p>
+    <form class="signup-form" method="post" action="#" novalidate="novalidate">
+      <label for="nombre-completo" class="etiqueta">Nombre completo</label>
+      <input id="nombre-completo" type="text" name="name" autocomplete="off"/>
+      <label for="telefono" class="etiqueta">Teléfono</label>
+      <input id="telefono" type="tel" name="telefono" autocomplete="off"/>
+      <label for="email" class="etiqueta">Correo Electrónico</label>
+      <input id="email" type="email" name="email" autocomplete="off"/>
+      <label for="empresa" class="etiqueta">Empresa</label>
+      <input id="empresa" type="text" name="name" autocomplete="off"/>
+      <label class="etiqueta">¿En qué plataforma deseas el demo?</label>
+      <div class="contenedorcbx"> 
+          <div class="check">
+            <input id="cbxwhats" type="checkbox"/> 
+            <label class="cbx" for="cbxwhats">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>WhatsApp</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxtelegram" type="checkbox"/> 
+            <label class="cbx" for="cbxtelegram">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Telegram</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxmessenger" type="checkbox"/> 
+            <label class="cbx" for="cbxmessenger">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Facebook Messenger</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxweb" type="checkbox"/> 
+            <label class="cbx" for="cbxweb">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Página Web</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxskype" type="checkbox"/> 
+            <label class="cbx" for="cbxskype">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Skype</span>
+          </div>
+      </div>
+
+      <label class="etiqueta">¿Para qué caso de uso?</label>
+      <div class="contenedorcbx"> 
+          <div class="check">
+            <input id="cbxsoporte" type="checkbox"/> 
+            <label class="cbx" for="cbxsoporte">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Soporte Técnico</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxventas" type="checkbox"/> 
+            <label class="cbx" for="cbxventas">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Ventas</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxinfo" type="checkbox"/> 
+            <label class="cbx" for="cbxinfo">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Información</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxac" type="checkbox"/> 
+            <label class="cbx" for="cbxac">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Atención al cliente</span>
+          </div>
+
+          <div class="check">
+            <input id="cbxotro" type="checkbox"/> 
+            <label class="cbx" for="cbxotro">
+              <div class="flip">
+                <div class="front"></div>
+                <div class="back">
+                  <svg width="16" height="14" viewBox="0 0 16 14">
+                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+            <span>Otro</span>
+          </div>
+      </div>
+
+
+      <label class="etiqueta">¿Se integrará con otra plataforma? (ERP, Base de datos, etc.)</label>
+      <div class="cntr">
+        <label for="rdo-si" class="btn-radio">
+          <input type="radio" id="rdo-si" name="radio-grp">
+          <svg width="20px" height="20px" viewBox="0 0 20 20">
+            <circle cx="10" cy="10" r="9"></circle>
+            <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+            <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+          </svg>
+          <span>Si</span>
+        </label>
+        <label for="rdo-no" class="btn-radio">
+          <input type="radio" id="rdo-no" name="radio-grp">
+          <svg width="20px" height="20px" viewBox="0 0 20 20">
+            <circle cx="10" cy="10" r="9"></circle>
+            <path d="M10,7 C8.34314575,7 7,8.34314575 7,10 C7,11.6568542 8.34314575,13 10,13 C11.6568542,13 13,11.6568542 13,10 C13,8.34314575 11.6568542,7 10,7 Z" class="inner"></path>
+            <path d="M10,1 L10,1 L10,1 C14.9705627,1 19,5.02943725 19,10 L19,10 L19,10 C19,14.9705627 14.9705627,19 10,19 L10,19 L10,19 C5.02943725,19 1,14.9705627 1,10 L1,10 L1,10 C1,5.02943725 5.02943725,1 10,1 L10,1 Z" class="outer"></path>
+          </svg>
+          <span>No</span>
+        </label>
+      </div>
+      <button class="submitform-btn"  type="submit"><span>Enviar</span></button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
